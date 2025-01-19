@@ -1,0 +1,17 @@
+{
+    "dataset": {
+        "rebar_dir": "/content/drive/MyDrive/Datasets/Rebar_NonRebar/Steel Rebars/train",
+        "non_rebar_dir": "/content/drive/MyDrive/Datasets/Rebar_NonRebar/Non-Rebar"
+    },
+    "model": {
+        "type": "IsolationForest",
+        "output_dir": "/content/drive/MyDrive/Models/SoftDes/models",
+        "model_filename": "iforest_model.pkl"
+    },
+    "parameters": {
+        "n_estimators": 100,
+        "max_samples": "auto",
+        "contamination": 0.1,
+        "random_state": 42
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "dataset": {
+        "rebar_dir": "/content/drive/MyDrive/Datasets/Rebar_NonRebar/Steel Rebars/train",
+        "non_rebar_dir": "/content/drive/MyDrive/Datasets/Rebar_NonRebar/Non-Rebar"
+    },
+    "model": {
+        "type": "LocalOutlierFactor",
+        "output_dir": "/content/drive/MyDrive/Models/SoftDes/models",
+        "model_filename": "lof_model.joblib"
+    },
+    "parameters": {
+        "n_neighbors": 120,
+        "contamination": 0.1,
+        "novelty": true
+    }
+}

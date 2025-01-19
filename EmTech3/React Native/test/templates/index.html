@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry po</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom right, #ff6b6b, #f9d44c);
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .letter {
+            display: none; /* Hide the apology letter by default */
+            text-align: justify; /* Justify text */
+            color: black; /* Change font color to black */
+        }
+
+        button {
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #fff;
+            color: #ff6b6b;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 2s forwards;
+        }
+    </style>
+    <script>
+        function showApology() {
+            document.getElementById('home').style.display = 'none';
+            const letter = document.getElementById('apology');
+            letter.style.display = 'block';
+            letter.classList.add('fade-in');
+        }
+
+        function showHome() {
+            document.getElementById('apology').style.display = 'none';
+            const home = document.getElementById('home');
+            home.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="home">
+            <h1>Henlo, Baby ko</h1>
+            <p>Sorry mang iistorbo ulit</p>
+            <button onclick="showApology()">Open</button>
+        </div>
+
+        <div id="apology" class="letter">
+            <h2>Apology Letter</h2>
+            <p>Hey baby emman ko,</p>
+            <p>I’m really sorry for my behavior and for hurting you. I realize I’ve been immature, and I regret not being more thoughtful. You mean so much to me.</p>
+            <p>I want to do better but don't know how to make it up to you. Sana matapos ka na sa ginagawa mo pra makatulog ka maaga</p>
+            <p>I love you so much baby ko, and I'm really sorry for being the way I am right now.</p>
+            <p>Love,<br>Rori</p>
+            <button onclick="showHome()">Back to Home</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+npx create-expo-app@latest ProjectName --template blank@latest
+
+
+

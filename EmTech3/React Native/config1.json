@@ -1,0 +1,16 @@
+{
+    "dataset": {
+        "rebar_dir": "/content/drive/MyDrive/Datasets/Rebar_NonRebar/Steel Rebars/train",
+        "non_rebar_dir": "/content/drive/MyDrive/Datasets/Rebar_NonRebar/Non-Rebar"
+    },
+    "model": {
+        "type": "OneClassSVM",
+        "output_dir": "/content/drive/MyDrive/Models/SoftDes/models",
+        "model_filename": "ocsvm_model.pkl"
+    },
+    "parameters": {
+        "kernel": "rbf",
+        "nu": 0.1,
+        "gamma": "scale"
+    }
+}

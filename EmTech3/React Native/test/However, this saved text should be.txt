@@ -1,0 +1,69 @@
+ However, this saved text should be handled by the button, not the text box. So, now that we've confirmed that the value per keystroke is passed, remove the contents of goalinputHandler's function body.
+
+In React Native, we have to use the onPress prop to connect our function passed as input to the prop. It. should now appear as onPress={addGoalHandler);, and similar to earlier, it must not be in the form of a function call.
+
+4. Now that it's connected, we want to get the entered Text in the textInput to be handled by our button, We can do this through states. At the top of your imports, include:
+
+import (useState) from 'react';
+
+To use the state, first call useState and set as an empty string initially.
+
+const useState(");
+
+The idea is we want to include within the the user input state or enteredGoalText state which can be updated by the setEnteredGoalText function, This is standard React syntax,
+
+5. Going back to goalinputHandler, we want to call the update function from the useState call above and pass the entered Text as its parameter. Your code should look similar to the figure below.
+
+export default function App() { const [enteredGoalText, setEnteredGoal Text] useState("");
+
+Function goalInputHandler(enteredText) setEnteredGoalText enteredText); };
+
+Function addGoalHandler()();
+
+6. We now want to test if we have access to this text from the useState, Add console.log(enteredGoalText); in your addGoalHandler's function body. Save and type down "Testing" and your output should be similar to the figure below.
+
+PROBLEMS
+
+OUTPUT DEBUG CONSOLE TERMINAL
+
+EDE Testing
+
+By the end of step 6, your code should be similar to the figure below.
+
+17
+
+JS Apps
+
+import { useState) from 'react';
+
+2 Import { StyleSheet, Text, View, Button, TextInput } from 'react-native":
+
+export default function App() {
+
+const [enteredGoalText, setEnteredGoalText useState("");
+
+function goalInputHandler(enteredText) [ setEnteredGoalText(enteredText); };
+
+function addGoalHandler() {
+
+console.log(enteredGoalText);
+
+10
+
+11
+
+12
+
+13
+
+Managing the List of Course Goals
+
+Now, we want to be able to update our list of goals that found in the secondary view component.
+
+1. Typically, when data changes dynamically we use state. Such as in this case, with the data for the list of goals
+
+changing, we want to useState as well. Add another useState below the first one created in the earlier steps.
+
+However, this second state will be initialized with an empty array instead.
+
+This state should be named courseGoals that can be changed by the setCourseGoals function

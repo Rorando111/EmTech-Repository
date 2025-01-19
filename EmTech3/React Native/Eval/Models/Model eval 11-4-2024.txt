@@ -1,0 +1,24 @@
+Isolation Forest:
+PS C:\Users\Rolando\Desktop\Codes\Eval\Models>  c:; cd 'c:\Users\Rolando\Desktop\Codes\Eval\Models'; & 'c:\Users\Rolando\AppData\Local\Programs\Python\Python312\python.exe' 'c:\Users\Rolando\.vscode\extensions\ms-python.debugpy-2024.12.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '62779' '--' 'c:\Users\Rolando\Desktop\Codes\Eval\Models\Model_eval.py'
+Initial CPU Usage: 0.0%
+Final CPU Usage: 6.0%
+Initial Memory Usage: 92.5%
+Final Memory Usage: 93.9%
+Model loading time: 1.40 seconds
+
+Local Outlier Factor:
+PS C:\Users\Rolando\Desktop\Codes\Eval\Models>  c:; cd 'c:\Users\Rolando\Desktop\Codes\Eval\Models'; & 'c:\Users\Rolando\AppData\Local\Programs\Python\Python312\python.exe' 'c:\Users\Rolando\.vscode\extensions\ms-python.debugpy-2024.12.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '62792' '--' 'c:\Users\Rolando\Desktop\Codes\Eval\Models\Model_eval.py'
+Initial CPU Usage: 0.0%
+Final CPU Usage: 5.9%
+Initial Memory Usage: 92.6%
+Final Memory Usage: 93.9%
+Model loading time: 1.75 seconds
+
+One-Class SVM
+PS C:\Users\Rolando\Desktop\Codes\Eval\Models>  c:; cd 'c:\Users\Rolando\Desktop\Codes\Eval\Models'; & 'c:\Users\Rolando\AppData\Local\Programs\Python\Python312\python.exe' 'c:\Users\Rolando\.vscode\extensions\ms-python.debugpy-2024.12.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '62819' '--' 'c:\Users\Rolando\Desktop\Codes\Eval\Models\Model_eval.py'
+Initial CPU Usage: 0.0%
+Final CPU Usage: 9.1%
+Initial Memory Usage: 92.8%
+Final Memory Usage: 94.0%
+Model loading time: 1.27 seconds
+PS C:\Users\Rolando\Desktop\Codes\Eval\Models>

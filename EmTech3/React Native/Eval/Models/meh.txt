@@ -1,0 +1,11 @@
+Feature / System	ProfileMaster SPS 80	RIB3D	Rib Measuring System (ECMDatensysteme)	LAP Dimensional Measurement Systems
+Non-contact Measurement	X			
+Automated Measurements	X	X	X	X
+3D Measurement		X		
+Real-time Monitoring	X		X	X
+Suitable for Harsh Conditions (up to 1200°C)	X			
+Measures Rib Height	X	X	X	X
+Measures Rib Spacing			X	
+Optical Measurement			X	X
+Reports According to Standards		X	X	
+
