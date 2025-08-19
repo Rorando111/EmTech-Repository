@@ -17,10 +17,8 @@ This folder contains materials for the CPE-019 course, including:
 ## EmTech3
 
 This folder focuses on emerging technologies and experimental projects:
-- Contains apps and prototypes built with Streamlit and other frameworks for demonstrating concepts in AI, IoT, and data science.
-- Includes saved machine learning models, sample datasets, and scripts for testing and deploying new technologies.
-- Features documentation and notes on experiments, including results, challenges, and future improvements.
-- Projects may cover topics such as sensor integration, automation, cloud deployments, and data analytics.
+- **React Native/**  
+  Contains projects and sample applications developed using React Native, showcasing mobile development skills and experimentation with cross-platform technologies.
 
 ## Author
 
