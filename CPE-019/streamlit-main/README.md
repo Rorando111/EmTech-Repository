@@ -9,7 +9,7 @@ This github repository contains and will contain the apps I have deployed, and a
 - [@Rorando111](https://github.com/Rorando111)
 
 ## 🚀 About Me
-Hi! I am Rorando or Rori for short. 
+Hi! I am Rolando or Rolly for short. 
 
 [![Rorando111's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rorando111)](https://github.com/Rorando111/github-readme-stats)
 
