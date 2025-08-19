@@ -11,7 +11,7 @@ This github repository contains and will contain the apps I have deployed, and a
 ## 🚀 About Me
 Hi! I am Rolando or Rolly for short. 
 
-// [![Rorando111's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rorando111)](https://github.com/Rorando111/github-readme-stats)
+[![Rorando111's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rorando111)](https://github.com/Rorando111/github-readme-stats)
 
 
 ## 🛠 Skills
